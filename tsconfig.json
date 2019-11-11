@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es6",
+    "module": "es6",
+    "moduleResolution": "node",
+    "strict": true,
+    "resolveJsonModule": true,
+    "outDir": "./dist",
+    "baseUrl": ".",
+    "sourceMap": true,
+    "paths": {
+      "~/*": ["./src/*"]
+    },
+    "jsx": "react",
+    "jsxFactory": "h"
+  },
+  "include": ["./src/**/*"]
+}

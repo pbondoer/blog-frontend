@@ -1,0 +1,41 @@
+{
+  "name": "blog-frontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "test": "jest"
+  },
+  "dependencies": {
+    "preact": "^10.0.5",
+    "preact-router": "^3.1.0",
+    "routes": "^2.1.0",
+    "styled-components": "^4.4.1"
+  },
+  "devDependencies": {
+    "@types/enzyme": "^3.10.3",
+    "@types/jest": "^24.0.22",
+    "@types/styled-components": "^4.4.0",
+    "@typescript-eslint/eslint-plugin": "^2.7.0",
+    "@typescript-eslint/parser": "^2.7.0",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-preact-pure": "^2.2.0",
+    "enzyme-to-json": "^3.4.3",
+    "eslint": "^6.6.0",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-jest": "^23.0.3",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.16.0",
+    "jest": "^24.9.0",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^1.18.2",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.7.2"
+  },
+  "alias": {
+    "react": "preact/compat",
+    "react-dom": "preact/compat"
+  }
+}
